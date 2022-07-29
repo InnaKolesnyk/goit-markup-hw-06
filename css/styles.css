@@ -335,7 +335,7 @@ color: var(--accent-color);
  letter-spacing: 0.01em;
  color: rgba(117, 117, 117, 0.5);
 }
- .modal .checkbox{
+.checkbox{
     display: flex;
     align-items: center;
     justify-content: center;
