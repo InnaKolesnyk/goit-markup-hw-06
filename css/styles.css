@@ -262,6 +262,7 @@ color: var(--accent-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
     cursor: pointer;
+    transition: fill 250ms var(--cubic-bezier);
 }
 .modal-btn:hover,
 .modal-btn:focus{
@@ -270,7 +271,7 @@ color: var(--accent-color);
 /*.modal-btn-icon:hover,
 .modal-btn-icon:focus{
     fill:var(--accent-color)*/
-}
+
  .modal .modal-title{
     display: block;
     margin: 0;
